@@ -1,0 +1,45 @@
+body {
+	background-color: bisque;
+}
+
+h1 {
+	font-family: Times;
+    font-size: 5vw;
+	color: black;
+}
+p {
+	font-family: Times;
+    font-size: 2.5vw;
+	color: black;	
+}
+
+mark {
+	font-family: Times;
+    font-size: 2.5vw;
+	color: tomato;	
+	background-color: bisque;
+}
+
+/* If the browser window is smaller than 500px, the background color will change to lightblue: */
+
+@media (max-width: 768px) {
+  body {
+    background-color: firebrick;
+  }
+  h1 {
+	font-family: Helvetica;
+    font-size: 7vw;
+	color: white;
+}
+p {
+	font-family: Helvetica;
+    font-size: 3vw;
+	color: white;	
+}
+mark {
+	font-family: Helvetica;
+    font-size: 3vw;
+	color: tomato;	
+	background-color: firebrick;
+}
+}
